@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/register.css">
+    <title>Register Page</title>
+</head>
+<body>
+    <!-- CODE REGISTER -->
+    <div class="container">
+        <form id="registerForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <label for="password">Confirm Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="button" onclick="register()">Register</button>
+        </form>
+        <p id="error-message"></p>
+        <p>Altady have an account <a href="../HTML/login.html">login</a></p>
+    </div>
+     
+    <script src="../JS/register.js"></script>
+</body>
+</html>

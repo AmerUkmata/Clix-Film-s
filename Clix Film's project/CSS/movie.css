@@ -1,0 +1,38 @@
+.video-screen{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.heading-name{
+    font-weight:100;
+    font-style:normal;
+    font-family:arial;
+    font-size:30px;
+    margin-left: 375px;
+    margin-bottom:10px;
+    margin-top: -15px;
+}
+.description{
+    margin-right:500px;
+    margin-left: 375px;
+    font-family:arial;
+    
+}
+.genre{
+    font-family:arial;
+    margin-left: 375px;
+    margin-top:20px;
+}
+.strong{
+    font-family:arial;
+    margin-left: 375px;
+}
+.casts{
+    font-family:arial;
+    margin-left: 375px;
+}
+.released{
+    font-family:arial;
+    margin-left: 375px;
+}

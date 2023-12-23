@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/categories.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">CLIX FILM'S</div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="../index.html" onclick="activateLink(this)">Home</a></li>
+                <li><a href="./Aboutus.html" onclick="activateLink(this)">About</a></li>
+                <li><a href="#" onclick="activateLink(this)">Categories</a></li>
+                <li><a href="./contacts.html" onclick="activateLink(this)">Contact</a></li>
+                <li><a href="./login.html" onclick="activateLink(this)">Login</a></li>
+                <li><a href="./register.html" onclick="activateLink(this)">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="grid-container" id="grid-container">
+            <!-- Cards will go here -->
+        </div>
+    </div>
+    <footer class="main-footer" id="movieFooter">
+        <div class="footer-content">
+            <div class="footer-logo">CLIX FILM'S</div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+<script src="../JS/categories.js"></script>
+<script src="../JS/header.js"></script>
+<script src="../JS/footer.js"></script>
+</body>
+</html>

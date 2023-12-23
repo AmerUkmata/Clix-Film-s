@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/contacts.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">CLIX FILM'S</div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="../index.html" onclick="activateLink(this)">Home</a></li>
+                <li><a href="./Aboutus.html" onclick="activateLink(this)">About</a></li>
+                <li><a href="./categories.html" onclick="activateLink(this)">Categories</a></li>
+                <li><a href="#" onclick="activateLink(this)">Contact</a></li>
+                <li><a href="./login.html" onclick="activateLink(this)">Login</a></li>
+                <li><a href="./register.html" onclick="activateLink(this)">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form id="subscribeForm" onsubmit="submitForm(event)">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email..." required>
+            <button type="submit">Subscribe</button>
+            <p id="error-message"></p>
+            <p id="success-message"></p>
+        </form>
+    </div>
+
+    <footer class="main-footer" id="movieFooter">
+        <div class="footer-content">
+            <div class="footer-logo">CLIX FILM'S</div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../JS/header.js"></script>
+    <script src="../JS/contacts.js"></script>
+    <script src="../JS/footer.js"></script>
+</body>
+</html>
